@@ -1,0 +1,17 @@
+body {
+    background: orange;
+    height: 90vh;
+    display: grid;
+    place-content: center;
+}
+@media (max-width: 768px) {
+   body {
+        background: red;
+   }
+    
+}
+@media (max-width: 600px) {
+   body {
+        background: #0ae0aa;
+   }
+}

@@ -1,0 +1,22 @@
+
+body {
+    background-color: #111;
+    color: #fff;
+    height: 90vh;
+    display: grid;
+    place-content: center;
+}
+
+@media (orientation:portrait) {
+    body {
+        background: orange;
+    }
+    .landscape {
+       display: none;
+    }
+}
+@media (orientation:landscape) {
+    .portrait {
+        display: none;
+    }
+}
